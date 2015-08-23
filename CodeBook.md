@@ -18,24 +18,20 @@ For each record in the dataset it is provided:
 
 
 Variable list
-1. subject- ID of the subject who performed the activity for each window sample.
-
-2. activity- Activity name
-
-3. featDomain - Feature: Time domain signal or frequency domain signal (Time or Freq)
-
-4. featInstrument - Feature: Measuring instrument (Accelerometer or Gyroscope)
-
-5. featAcceleration - Feature: Acceleration signal (Body or Gravity)
-
-6. featVariable -	Feature: Variable (Mean or SD)
-
-7. featJerk	Feature - Jerk signal
-
-8. featMagnitude - Feature: Magnitude of the signals calculated using the Euclidean norm
-
-9. featAxis	Feature - 3-axial signals in the X, Y and Z directions (X, Y, or Z)
-
-10.featCount - Feature: Count of data points used to compute average
-
-11.featAverage - 	Feature: Average of each variable for each activity and each subject
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values.
+iqr(): Interquartile range
+entropy(): Signal entropy
+arCoeff(): Autoregression coefficients with Burg order equal to 4
+correlation(): Correlation coefficient between two signals
+maxInds(): Index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): Skewness of the frequency domain signal
+kurtosis(): Kurtosis of the frequency domain signal
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window
+angle(): Angle between some vectors
