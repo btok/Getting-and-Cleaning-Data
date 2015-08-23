@@ -45,25 +45,3 @@ How to run the script:
 3. Run the file 'run_analysis.R'.
 
 4. The txt file of task 5 will be created in your working directory under the name 'avg_by_activity_subject.txt'.
-
-Data transformation:
-
-1. Merging the trainging and testing datasets: 
-Test and training data, subject ids and activity ids are merged to obtain a single data set. 
-Variables are labelled with the names assigned by the original conduct in the file 'features.txt'.
-
-2. Extracting mean and standard deviation variables:
-Filtering the merged data to have only the values of estimated mean (variables that contain "mean") and standard deviation (variables that contain "std").
-
-3. Using descriptive names:
-A new column is added with the activity description. The use of Activity id column is to look up descriptions in activity_labels file
-Also the original labels were changed in order to obtain valid R names (without parentheses, dashes and commas to obtain more descriptive labels).
-
-4. Creating tidy dataset:
-From the resulted data set I created a tidy data set where I avereged all numeric values according to activity and subject.
-The result dataset stracture is:
---* Activity: 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING'
---* subject identifier (numeric): 1, 3, 5...
---* A 79-feature vector with time and frequency variables (numeric)
-
-5. Evetually the resulted dataset is written to the file 'avg_by_activity_subject.txt'
