@@ -2,9 +2,6 @@
 title: "ReadMe"
 author: "B"
 ---
-
-The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone and raw data are obtained from UCI Machine Learning repository.
-
 The Task:
 
 1. Merges the training and the test sets to create one data set.
@@ -17,9 +14,10 @@ The Task:
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+The data:
 
+The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone and raw data are obtained from UCI Machine Learning repository.
 
-The data
 The dataset includes the following files:
 
 1. 'README.txt'
