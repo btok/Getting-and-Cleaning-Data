@@ -52,3 +52,7 @@ Variable list that were collected:
 16. bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window
 
 17. angle(): Angle between some vectors
+
+
+References
+<a name="uci-har"/>Human Activity Recognition Using Smartphones Data Set. URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
