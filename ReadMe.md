@@ -5,6 +5,20 @@ author: "B"
 
 The data represent data collected from the accelerometers from the Samsung Galaxy S smartphone and raw data are obtained from UCI Machine Learning repository.
 
+The Task:
+
+1. Merges the training and the test sets to create one data set.
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+3. Uses descriptive activity names to name the activities in the data set
+
+4. Appropriately labels the data set with descriptive activity names.
+
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+
 The data
 The dataset includes the following files:
 
@@ -33,15 +47,6 @@ How to run the script:
 3. Run the file 'run_analysis.R'.
 
 4. The txt file of task 5 will be created in your working directory under the name 'avg_by_activity_subject.txt'.
-
-
-
-Transformation task is devided into 5 tasks:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive activity names.
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Data transformation:
 

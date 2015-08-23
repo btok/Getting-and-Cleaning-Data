@@ -48,5 +48,5 @@ names(sensorDataMeanStd) <- gsub('Freq\\.',"Frequency.",names(sensorDataMeanStd)
 names(sensorDataMeanStd) <- gsub('Freq$',"Frequency",names(sensorDataMeanStd))
 
 #Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-dataAvgActivityAndSubject = ddply(sensorDataMeanStd, c("Subject","Activity"), numcolwise(mean))
-write.table(dataAvgActivityAndSubject, file = "avg_by_activity_subject.txt")
+dataAvgActivityAndSubject <- ddply(sensorDataMeanStd, c("Subject","Activity"), numcolwise(mean))
+write.table(dataAvgActivityAndSubject, file = "avg_by_activity_subject.txt", row.names=FALSE)
