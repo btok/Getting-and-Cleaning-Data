@@ -31,7 +31,7 @@ sensorDataMeanStd <- join(filteredData, activityLabels, by = "ActivityId", match
 sensorDataMeanStd <- sensorDataMeanStd[,-1]
 
 #Appropriately labels the data set with descriptive names
-#Removing parentheses & syntactically valid names
+#Removing parentheses & syntactically invalid names
 names(sensorDataMeanStd) <- gsub('\\(|\\)',"",names(sensorDataMeanStd))
 names(sensorDataMeanStd) <- make.names(names(sensorDataMeanStd))
 #Make clearer names
